@@ -1,0 +1,36 @@
+$orange: #f7a922;
+$blue: #1e1656;
+$grey: #737373;
+$green: #8EC448;
+
+.row{
+  //Outer
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid $blue;
+  
+  //Inner
+  width: 100%;
+  height: 150px;
+  
+  //Properties
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  .column{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    .data{
+      color: $blue;
+    }
+    u{
+      color: $orange;
+    }
+    .dateEnd{
+      color: $green;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'echo "TODO: Replace with init/build command"'
+    command: 'echo "TODO: Replace with command to start project"'
+ports:
+  - port: 3000
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint@2.1.3:1NRvj3UKNTNwmYjptmUmIw==
